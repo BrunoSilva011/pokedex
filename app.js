@@ -1,8 +1,7 @@
 'use strict'
 const url = 'https://pokeapi.co/api/v2/pokemon/'
 let infosPokes = document.getElementById("pokemon")
-let pokeName,
-    pokemon,
+let pokemon,
     card;
 
 function search() {
